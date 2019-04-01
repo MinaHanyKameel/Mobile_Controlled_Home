@@ -5,6 +5,7 @@
  *      Author: Hanoon-PC
  */
 #include "TYPES.h"
+#pragma section data "Ali"
 #include "MACROS.h"
 #include "H_Bluetooth_UART.h"
 #include "Project_App.h"

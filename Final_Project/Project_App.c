@@ -23,8 +23,8 @@ int main (void)
 	u8 State=LogIn;
 	Bluetooth_vidInit();
 	SignUP_vidInit();
-	while(1)
-	{
+//	while(1)
+//	{
 		switch (State){
 		case LogIn:
 			if(Login_u8LoginOperation()==VALID){State = Menu;}
@@ -49,6 +49,6 @@ int main (void)
 			State=Menu;
 			break;
 		}
-	}
+//	}
 	return 1;
 }
